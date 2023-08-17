@@ -23,7 +23,7 @@ function Profile({reg}) {
            <div className='test'>
     <div className='user_pro '>
       <h1>GUEST</h1>
-      <h2>XXXXXXXXXX</h2>
+      <h2>No user Logged IN</h2>
     </div>
     </div>
           </>
