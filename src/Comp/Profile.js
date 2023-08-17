@@ -18,6 +18,16 @@ import t2 from "./images/tv2.jpg";
 function Profile({reg}) {
     if(user_info.user==null && loginn.user==null ){
         alert("no user loginn")
+        return (
+          <>
+           <div className='test'>
+    <div className='user_pro '>
+      <h1>GUEST</h1>
+      <h2>XXXXXXXXXX</h2>
+    </div>
+    </div>
+          </>
+        )
     }
     else{
       
