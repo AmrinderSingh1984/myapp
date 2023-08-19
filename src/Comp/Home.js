@@ -50,7 +50,6 @@ export function Home(props) {
     }
   }
   }
-
   let clicked=0;
   let [count,setc]=useState(0);
   let [total,set_total]=useState(0);
